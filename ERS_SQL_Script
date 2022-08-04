@@ -1,0 +1,27 @@
+
+create table employee(
+eid serial,
+first_name varchar(100),
+last_name varchar(100),
+email varchar(100),
+username varchar(100),
+primary key (eid)
+);
+
+create table manager(
+mid serial,
+first_name varchar(100),
+last_name varchar(100),
+email varchar(100),
+username varchar(100),
+primary key (mid)
+);
+
+create table reimbursement(
+rid serial,
+amount numeric (4,2),
+reimbursement_type varchar(100),
+status int,
+primary key (rid)
+);
+
