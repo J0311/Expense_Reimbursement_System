@@ -8,7 +8,7 @@ This application is an expense reimbursement system that manages the process of 
 
 ## Features
 - Persisted data through an AWS Cloud Platform PostgreSQL database
-- Logging, Javadocs and tests
+- Logging, Javadocs and tests.
 
 ## Technology
 Key technologies and dependencies used in this project:
@@ -16,8 +16,10 @@ Key technologies and dependencies used in this project:
 - JUnit
 - Mockito
 - Log4J
+- Tomcat Webserver
 - Jason Library
 - Maven
 - Git
 - AWS Cloud SQL
 - PostgreSQL
+- Servlets (servlets still currently under development)
