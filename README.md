@@ -1,7 +1,7 @@
 # Expense-Reimbursement-System
 
 
-| [Description](#description) | [Features](#features) | [Technology](#technology) | 
+| [Description](#description) | [Features](#features) | [Technology](#technology) |  
 
 ## Description
 
