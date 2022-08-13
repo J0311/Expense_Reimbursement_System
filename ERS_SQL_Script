@@ -24,4 +24,3 @@ reimbursement_type varchar(100),
 status int,
 primary key (rid)
 );
-
