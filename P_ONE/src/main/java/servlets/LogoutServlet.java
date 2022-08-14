@@ -9,6 +9,7 @@ import java.io.IOException;
 public class LogoutServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        
         HttpSession userSession = request.getSession(true);
         userSession.invalidate();
         response.setContentType("text/plain");
