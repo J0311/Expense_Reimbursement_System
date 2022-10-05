@@ -41,6 +41,7 @@ public class ManagerService {
      * @param-password
      * @return 0 if login failed and manager's id if login successfully
      */
+    
     public int login(String username, String password) {
         Manager manager = mDAO.verifyManager(username,password);
         logger.debug("manager is: " + manager);
@@ -68,6 +69,7 @@ public class ManagerService {
      * @param e_id
      * @return all requests of a specified employee
      */
+    
     public ArrayList<Reimbursement> viewEmployeeRequests(Integer e_id) {
         return rDAO.getByEmployeeId(e_id);
     }
@@ -84,6 +86,7 @@ public class ManagerService {
      * get all resolved requests
      * @return all resolved requests
      */
+    
     public ArrayList<Reimbursement> getAllResolved() {
         return rDAO.getAllResolved();
     }
@@ -94,6 +97,7 @@ public class ManagerService {
      * @param decision
      * @return true if resolve successfully and false if resolve unsuccessfully
      */
+    
     public boolean resolve(int requestId, String decision) {
         return rDAO.resolve(requestId,currentUserId,decision);
     }
