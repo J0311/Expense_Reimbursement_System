@@ -15,7 +15,6 @@ public class Employee {
 
     public Employee(){}
 
-
     public Employee(int e_id, String fName, String lName, String username, String password, String email) {
         this.e_id = e_id;
         this.fName = fName;
