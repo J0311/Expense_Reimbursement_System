@@ -13,6 +13,7 @@ import util.DBConnection;
 import java.util.ArrayList;
 
 public class ManagerService {
+    
 
     private static final Logger logger = LogManager.getLogger(ManagerService.class.getName());
     public int currentUserId = 0;
