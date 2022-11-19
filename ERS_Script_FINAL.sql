@@ -1,3 +1,4 @@
+
 create table employee(
 e_id serial,
 first_name varchar(100),
