@@ -9,7 +9,7 @@ public class Employee {
     private String lName;
     private String username;
     private String email;
-    private String password
+    private String password;
 
     //public static List<Employee> employees = new ArrayList<>();
 
