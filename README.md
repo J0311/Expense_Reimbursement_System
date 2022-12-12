@@ -20,7 +20,7 @@ Key technologies and dependencies used in this project:
 - JUnit
 - Mockito
 - Log4J
-- Tomcat Webserver
+- Tomcat 
 - Jason Library
 - Maven
 - Git
