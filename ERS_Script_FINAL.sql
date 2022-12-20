@@ -1,3 +1,5 @@
+-- ERS
+
 create table employee(
 e_id serial,
 first_name varchar(100),
@@ -7,7 +9,6 @@ password varchar(100),
 email varchar(100),
 primary key (e_id)
 );
-
 
 create table manager(
 m_id serial,
