@@ -26,4 +26,4 @@ Key technologies and dependencies used in this project:
 - Git
 - AWS Cloud SQL
 - PostgreSQL
-- Servlets (servlets currently under development)
+- Servlets (servlets currently in development)
