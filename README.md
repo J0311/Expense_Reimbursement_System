@@ -12,7 +12,7 @@ This application is an expense reimbursement system that manages the process of 
 - Persisted data through an AWS Cloud Platform PostgreSQL database
 - Logging, Javadocs and tests.
 
-## Technology
+## Technologies
 
 Key technologies and dependencies used in this project:
 
