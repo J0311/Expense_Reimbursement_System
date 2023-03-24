@@ -17,7 +17,7 @@ This application is an expense reimbursement system that manages the process of 
 
 Key technologies and dependencies used in this project:
 
-- Jav
+- Java
 - JUnit
 - Mockito
 - Log4J
