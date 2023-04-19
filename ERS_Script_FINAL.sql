@@ -59,4 +59,5 @@ values (48.00, 1, 3, 'pending', 'parking'),
 (60.70, 4, 1, 'denied', 'food'),
 (73.01, 3, 4, 'approved', 'lodging');
 
+
 select * from reimbursement;
