@@ -31,6 +31,7 @@ reimbursement_type varchar(100),
 primary key (r_id)
 );
 
+
 drop table student;
 drop table employee;
 drop table manager;
