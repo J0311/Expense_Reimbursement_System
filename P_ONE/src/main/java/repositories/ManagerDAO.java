@@ -23,6 +23,7 @@ public class ManagerDAO {
      * @param-id
      * @return manager who matching id
      */
+    
     public Manager getById(int id) {
         Connection connection = null;
         Manager manager = null;
