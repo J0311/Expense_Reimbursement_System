@@ -35,8 +35,9 @@ public class EmployeeService {
      * employee log in
      * @param username
      * @param password
-     * @return 0 if login failed and employee's id if login successfully
+     * @return 0 if login failed and employee's id if login success
      */
+    
     public int login(String username, String password) {
         Employee employee = eDAO.verifyEmployee(username,password);
         logger.debug("employee is: " + employee);
