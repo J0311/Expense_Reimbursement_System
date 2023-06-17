@@ -25,7 +25,7 @@ Key technologies and dependencies used in this project:
 - Jason Library
 - Maven
 - Git
-- AWS Cloud SQ
+- AWS Cloud SQL
 - PostgreSQL
 - Servlets (servlets still under development)
 - Google docs
