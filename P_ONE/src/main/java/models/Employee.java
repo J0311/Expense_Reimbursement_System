@@ -12,7 +12,6 @@ public class Employee {
     private String password;
 
     //public static List<Employee> employee = new ArrayList<>(); 
-    
 
     public Employee(){}
 
